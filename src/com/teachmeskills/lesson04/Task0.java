@@ -16,8 +16,8 @@ public class Task0 {
         System.out.println(Arrays.toString(array));
         Arrays.sort(array);
         System.out.println(Arrays.toString(array));
-        int binarySearch = Arrays.binarySearch(array, 5);
-//        System.out.println(binarySearch);
+        int binarySearch = Arrays.binarySearch(array, a);
+        System.out.println(binarySearch);
         if (binarySearch >= 0) {
             System.out.println("Array contains number a = " + a);
         } else {
