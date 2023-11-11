@@ -37,7 +37,6 @@ public class Task2 {
         return maxValue;
     }
 
-    // здесь находим минимум
     public static int getMin(int[] inputArray) {
         int minValue = inputArray[0];
         for (int i = 1; i < inputArray.length; i++) {
