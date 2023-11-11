@@ -3,7 +3,7 @@ package com.teachmeskills.lesson04;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Task3 {
+public class Task2 {
     public static void main(String args[]) {
 
         Scanner scanner = new Scanner(System.in);
@@ -49,7 +49,7 @@ public class Task3 {
     }
 
     public static double getAverage(int[] inputArray) {
-        double averValue = 0;
+        double averValue;
         double sum = 0;
         for (int i = 0; i < inputArray.length; i++) {
             sum = sum + inputArray[i];
